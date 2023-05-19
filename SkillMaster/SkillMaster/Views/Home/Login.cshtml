@@ -1,0 +1,188 @@
+﻿@model SkillMaster.Model.ViewModels.UserRequest
+@{
+    ViewData["Title"] = "Login";
+}
+<link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+
+<body class="p-0">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 px-0 col-md-12 col-sm-12" id="carousel">
+
+                <div id="carouselExampleCaptions"
+                     class="carousel slide"
+                     data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"></button>
+                        <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        <button type="button"
+                                data-bs-target="#carouselExampleCaptions"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="~/Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png"
+                                 class="d-block CorouselImg img img-fluid w-100"
+                                 alt="..." />
+                            <div class="carousel-caption d-none d-md-block text">
+                                <h1>hello From Sumit</h1>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quasi illo aspernatur tempore error minima ex facilis
+                                    incidunt laboriosam voluptate aliquid quas velit modi, sit,
+                                    delectus molestias accusamus. Expedita eos eveniet adipisci
+                                    facilis explicabo, dolorem provident in corrupti ipsam
+                                    officiis ullam neque ut!
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <img src="~/Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png"
+                                 class="d-block CorouselImg img img-fluid w-100"
+                                 alt="..." />
+                            <div class="carousel-caption d-none d-md-block text">
+                                <h1>Grow Trees </h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Dolores, adipisci eius! Fugit unde cupiditate autem
+                                    praesentium doloremque eius debitis temporibus pariatur quas
+                                    perferendis dolorum modi sit incidunt, fugiat alias eveniet,
+                                    maxime neque ratione quidem impedit, laborum tenetur saepe.
+                                    Tempora tenetur placeat.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="~/Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png"
+                                 class="d-block CorouselImg img img-fluid w-100"
+                                 alt="..." />
+                            <div class="carousel-caption d-none d-md-block text">
+                                <h1>Grow Trees </h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Dolores, adipisci eius! Fugit unde cupiditate autem
+                                    praesentium doloremque eius debitis temporibus pariatur quas
+                                    perferendis dolorum modi sit incidunt, fugiat alias eveniet,
+                                    maxime neque ratione quidem impedit, laborum tenetur saepe.
+                                    Tempora tenetur placeat.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="~/Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png"
+                                 class="d-block CorouselImg img img-fluid w-100"
+                                 alt="..." />
+                            <div class="carousel-caption d-none d-md-block text">
+                                <h1>Grow Trees </h1>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Dolores, adipisci eius! Fugit unde cupiditate autem
+                                    praesentium doloremque eius debitis temporibus pariatur quas
+                                    perferendis dolorum modi sit incidunt, fugiat alias eveniet,
+                                    maxime neque ratione quidem impedit, laborum tenetur saepe.
+                                    Tempora tenetur placeat.
+                                </p>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                    <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                              aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon"
+                              aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-4 px-0 col-md-12 col-sm-12 d-flex align-items-center justify-content-center">
+                <form asp-controller="Home" asp-action="Login">
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example1">Email address</label>
+                        <input type="email" id="form2Example1" class="form-control inputField" placeholder="evan.donohue@gmail.com" asp-for="Email" />
+                        <span asp-validation-for="Email" style="color: red;"> </span>
+                    </div>
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example2">Password</label>
+                        <div class="input-group">
+                            <input type="password" id="form2Example2" class="form-control inputField" placeholder="  *************" asp-for="Password" />
+                            <button class="border-0" type="button" id="togglePassword">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <span asp-validation-for="Password" style="color: red;"> </span>
+                    </div>
+
+                    <input type="submit" class="btn inputField" value="Login">
+                       <div class="row mb-2">
+
+                        <div class="col">
+                        <p class="text-center mt-2  "><a asp-controller="Account" asp-action="Lost_password">Lost your password?</a></p>
+                        </div>
+                        </div>
+
+                        <div class="row mb-2">
+                        <p class="text-center ">Don't have an account? <a asp-controller="Account" asp-action="Register"> Create an account</a></p>
+                        </div>
+
+                        <div class="row ">
+
+                        <div class="col">
+                        <a class="d-flex justify-content-center" style="margin-top:20vh" asp-action="Privacy" asp-controller="Home">Privacy policy</a>
+                        </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+<script>
+    const togglePasswordBtn = document.querySelector("#togglePassword");
+    const passwordInput = document.querySelector("#form2Example2");
+
+    togglePasswordBtn.addEventListener("click", () => {
+        const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+        passwordInput.setAttribute("type", type);
+        togglePasswordBtn.querySelector("i").classList.toggle("fa-eye-slash");
+        togglePasswordBtn.querySelector("i").classList.toggle("fa-eye");
+    });
+</script>
+

@@ -1,0 +1,675 @@
+﻿hr {
+    margin: 0.7rem;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.form-label::after {
+    content: "*";
+    color: red;
+    margin-left: 2px;
+}
+
+
+.home-chips {
+    width: 80vw;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    border: 1px solid #333333;
+    border-radius: 25px;
+    margin-right: 1vw;
+}
+
+.closebtn {
+    padding-left: 7px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+    .closebtn:hover {
+        color: #000;
+    }
+
+.home-chips a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1rem;
+}
+
+.Butmission {
+    color: orange;
+    border: 2px solid orange;
+    background-color: white;
+    font-weight: 500;
+    width: 230px;
+    height: 40px;
+}
+
+    .Butmission:hover {
+        background-color: orange;
+        border-color: orange;
+        color: black;
+    }
+
+.pdf:hover {
+    color: white !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .home-chips {
+        margin-top: 9vh;
+        margin-left: 3vw;
+        width: 100vw;
+    }
+
+    .chip {
+        font-size: 15px;
+        height: 30px;
+        line-height: 28px;
+        padding: 0 12px;
+    }
+
+    .closebtn {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+}
+
+.col-sm-12 col-md-6 col-lg-4 mb-4 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media all and (max-width: 992px) {
+    .But1 {
+        display: none;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu > li:hover {
+        background-color: #f1f1f1
+    }
+
+        .dropdown-menu > li:hover > .submenu {
+            display: block;
+        }
+}
+
+/* ============ desktop view .end// ============ */
+
+.img-height {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 769px) {
+    .img-height {
+        height: auto;
+    }
+}
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: .5rem;
+    }
+}
+
+.home-card-img {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    height: 190px;
+    object-fit: cover;
+    width: -webkit-fill-available;
+}
+
+.customshadow {
+    height: 56px;
+}
+
+    .customshadow:focus {
+        box-shadow: none !important;
+        border-color: #2b64b1 !important;
+    }
+
+.CorouselText {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+    text-align: left;
+    color: #fff;
+}
+
+.CorouselTitle {
+    width: 30vw;
+    text-align: left;
+    color: #fff;
+}
+
+.vcenter-item {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    min-height: 300px;
+}
+
+.box {
+    padding: 25px;
+    width: 100%;
+}
+
+
+.cardTitle {
+    font-size: 1.25vw;
+    color: #414141;
+    line-height: 1.31;
+}
+
+.cardTitleAction {
+    display: flex;
+    margin-top: -33px;
+}
+
+.cardTitleSubAction {
+    background-color: white;
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardLocation {
+    margin-top: -52%;
+    margin-right: -1.5%;
+    opacity: 0.6;
+}
+
+.cardClosed {
+    margin-top: -52%;
+    margin-right: -1.5%;
+    opacity: 0.9;
+}
+
+.cardAddPeople {
+    margin-top: -16%;
+    margin-right: -1.5%;
+    opacity: 0.6;
+}
+
+.cardLike {
+    margin-top: -27%;
+    margin-right: -1.5%;
+    opacity: 0.6;
+}
+
+.cardText {
+    font-size: 1vw;
+    color: #757575;
+    line-height: 1.6;
+}
+
+.cardAction {
+    display: flex;
+    margin-bottom: -30px;
+}
+
+.subAction {
+    background-color: white;
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardDeadlineSeats {
+    font-size: 1vw;
+}
+
+.cardSmallText {
+    font-size: 0.8vw;
+}
+
+@media(max-width: 576px) {
+    .cardDeadlineSeats {
+        font-size: 3vw;
+    }
+
+    .cardSmallText {
+        font-size: 2vw;
+    }
+}
+
+
+
+.cardWidth {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .cardWidth {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cardTitle {
+        font-size: 3.5vw;
+        color: #414141;
+        line-height: 1.31;
+    }
+
+    .cardText {
+        font-size: 3vw;
+        color: #757575;
+        line-height: 1.6;
+    }
+
+    .cardDeadlineSeats {
+        font-size: 3vw;
+    }
+
+    .cardSmallText {
+        font-size: 2.8vw;
+    }
+}
+
+.cont {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+
+.cont:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}
+
+.button {
+    margin-top: 100px;
+    position: absolute;
+    opacity: 0;
+}
+
+    .button span {
+        z-index: 1;
+    }
+
+.cont:hover .button {
+    opacity: 1;
+}
+
+
+.color input {
+    background-color: #f1f1f1;
+}
+
+
+
+.AClass {
+    right: 0px;
+    position: absolute;
+    opacity: .6;
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .cardDeadlineSeats {
+        font-size: 2vw;
+    }
+
+    .cardSmallText {
+        font-size: 1.8vw;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .cardDeadlineSeats {
+        font-size: 2vw;
+    }
+
+    .cardSmallText {
+        font-size: 1.8vw;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .cardDeadlineSeats {
+        font-size: 1vw;
+    }
+
+    .cardSmallText {
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .navInline {
+        display: -webkit-box !important;
+    }
+}
+
+
+.text-gray {
+    color: #757575 !important;
+}
+
+    .text-gray:hover {
+        color: white !important;
+    }
+
+.listLocation {
+    margin-top: -58%;
+    margin-right: 2.5%;
+    opacity: 0.6;
+}
+
+.listAddPeople {
+    margin-top: -17%;
+    margin-right: 2.5%;
+    opacity: 0.6;
+}
+
+.listLike {
+    margin-top: -28%;
+    margin-right: 2.5%;
+    opacity: 0.6;
+}
+
+.appliedbuttonlist {
+    position: absolute;
+    top: 15px;
+    left: -12px;
+    font-size: 13px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    color: white;
+    background-color: green;
+}
+
+.cardcontainerlist {
+    background-color: white;
+    transition: 0.3s;
+    box-shadow: 0 0 15px lightgray;
+}
+
+.box1 {
+    margin-top: -17px;
+    margin-left: 123px;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item:hover .nav-link {
+        color: rgb(0, 0, 0);
+    }
+
+    .row .nav .nav-item:hover .nav-link {
+        background-color: #fff;
+        color: #f88634 !important;
+    }
+}
+
+.sidebarBG {
+    background-color: #f88634;
+}
+
+
+
+/************************************* ListView CSS ************************************/
+
+
+@media screen and (max-width : 767px) {
+    #mission-grid-view {
+        display: block !important;
+    }
+
+    #mission-list-view {
+        display: none !important;
+    }
+}
+
+.list-view-card {
+    margin-right: 11%;
+}
+
+#list-mission-description {
+    margin-bottom: 0;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.mission-list-view {
+    padding-bottom: 8%;
+}
+
+.list-title-rating-duration {
+    justify-content: space-between;
+}
+
+.list-title-rating {
+    display: inline-flex;
+    width: 50%;
+}
+
+.list-rating {
+    padding-left: 2%;
+}
+
+
+.list-duration {
+    position: relative;
+    width: 30%;
+    border-top: 1px solid black;
+}
+
+.duration {
+    background: #FFFFFF no-repeat padding-box;
+    border: 1px solid #E8E8E8;
+    border-radius: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#list-duration-txt {
+    font-size: 13px;
+    text-align: center;
+    color: #414141;
+    margin-bottom: 1%;
+}
+
+.list-applybtn-seat-info {
+    justify-content: space-between;
+}
+
+.list-mission-apply {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    color: #F88634;
+}
+
+.list-seats-deadline-info {
+    padding-right: 10%;
+}
+
+.deadline-padd {
+    padding-right: 2%;
+}
+
+.pagination {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.list-view-card {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #0000000F;
+    border-radius: 3px;
+}
+
+.card-1 {
+    position: relative;
+}
+
+.location-1 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 10px;
+    border-radius: 18px;
+    background: #000000 0% 0%;
+    opacity: 0.7;
+    color: white;
+}
+
+.listclosed {
+    position: absolute;
+    top: 10px;
+    height: 28px;
+    font-size: 15px;
+    width: fit-content;
+    border-radius: 18px;
+    color: white;
+    background-color: orange;
+}
+
+.like-1 {
+    position: absolute;
+    top: 55px;
+    right: 7px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 18px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    color: white;
+}
+
+.user-1 {
+    position: absolute;
+    top: 100px;
+    right: 7px;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 18px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    color: white;
+}
+
+
+/****************  Footer and Useredit Profile CSS *******************/
+
+.brd {
+    padding: 10px 10px 20px 10px;
+    border-radius: 4px;
+    border: 1px solid #e8e8e8;
+    color: black;
+    margin: 5px;
+}
+
+.brd1 {
+    height: 35px;
+    border: solid 1px #d9d9d9;
+    border-radius: 3px;
+    width: 100%;
+    color: gray;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.brd2 {
+    border: solid 1px #d9d9d9;
+    border-radius: 3px;
+    width: 100%;
+    color: gray;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.brd3 {
+    padding: 5px 20px;
+    border-radius: 24px;
+    border: 2px solid gray;
+    color: gray;
+    background-color: #fff;
+}
+
+.brd4 {
+    padding: 5px 20px;
+    border-radius: 24px;
+    border: 2px solid #f88634;
+    color: #f88634;
+    background-color: #fff;
+}
+
+.clr {
+    color: gray;
+}
+
+.change_password {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}

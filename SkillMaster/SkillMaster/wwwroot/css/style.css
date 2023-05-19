@@ -1,0 +1,59 @@
+﻿
+.text {
+    right: 40%;
+    left: 11%;
+    bottom: 9%;
+    text-align: left;
+}
+
+.inputField {
+    width: 23vw;
+    height: 6vh;
+}
+
+.btn {
+    border-radius: 30px;
+    color: #f88634;
+    border: solid #f88634;
+}
+
+form {
+    height: 350px;
+}
+
+a {
+    text-decoration: none;
+    color: #414141;
+}
+
+
+
+@media (max-width: 991px) {
+
+    .inputField {
+        width: 100%;
+    }
+
+    form {
+        width: 70vw;
+        margin-top: 4vh;
+    }
+}
+
+.CorouselImg {
+    height: 100vh;
+}
+
+@media (max-width: 991px) {
+    .CorouselImg {
+        height: 80vh;
+    }
+}
+
+@media (max-width:760px) {
+    .carousel-caption {
+        display: block !important;
+    }
+}
+
+

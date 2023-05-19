@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1fe8a5bc-91bc-4d29-aa8e-0dd01035ff40": {
+      "ProjectGuid": "1fe8a5bc-91bc-4d29-aa8e-0dd01035ff40",
+      "DisplayName": "SkillMaster",
+      "ColorIndex": 0
+    },
+    "11c068d0-ef76-455c-8dc7-206ac8ee4716": {
+      "ProjectGuid": "11c068d0-ef76-455c-8dc7-206ac8ee4716",
+      "DisplayName": "SkillMaster.Model",
+      "ColorIndex": 1
+    },
+    "b9c1d577-9505-4f21-b1ba-c9529e8ec2ee": {
+      "ProjectGuid": "b9c1d577-9505-4f21-b1ba-c9529e8ec2ee",
+      "DisplayName": "SkillMaster.Service",
+      "ColorIndex": 2
+    },
+    "89aa2447-9b2f-4038-9d1e-fafc691df79d": {
+      "ProjectGuid": "89aa2447-9b2f-4038-9d1e-fafc691df79d",
+      "DisplayName": "SkillMaster.Repository",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
